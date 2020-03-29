@@ -24,7 +24,7 @@ To update release notes for and commit a new git tag:
 
 The generator follows semantic versioning, so:
 
-  * If there have been breaking changes since the last tag, it will increment the 1st (major) version digit by 1 and set the 2nd (minor) and 3rd (patch) to 0. (e.g. 0.6.8 &rightarrow; 1.0.0)
-  * If there have been no breaking changes, but there have been feature additions, it will increment the minor digit by 1 and set the patch digit to 0. (e.g. 0.6.8 &rightarrow; 0.7.0)
-  * If there have been no breaking changes nor feature additions, but there have been bug fixes, it will increment the patch digit by 1. (e.g. 0.6.8 &rightarrow; 0.6.9)
+  * If there have been breaking changes since the last tag, it will increment the 1st (major) version digit by 1 and set the 2nd (minor) and 3rd (patch) to 0. (e.g. 0.0.0 &rightarrow; 1.0.0)
+  * If there have been no breaking changes, but there have been feature additions, it will increment the minor digit by 1 and set the patch digit to 0. (e.g. 0.0.0 &rightarrow; 0.1.0)
+  * If there have been no breaking changes nor feature additions, but there have been bug fixes, it will increment the patch digit by 1. (e.g. 0.0.0 &rightarrow; 0.0.1)
   
