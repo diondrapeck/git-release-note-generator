@@ -5,3 +5,5 @@
 `utils.py`: helper functions used in `changelog_generator.js`
 
 `package.json`: file containing current repo version as a json object
+
+![](https://github.com/diondrapeck/git-release-note-generator/blob/master/news_preview.png)
